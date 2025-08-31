@@ -5,9 +5,9 @@ const { system } = MC;
 
 /**
  * @param player 対象プレイヤー
- * @param form ActionFormData | ModalFormData | MessageFormData
+ * @param form UI.ActionFormData | UI.ModalFormData | UI.MessageFormData
  * @param timeoutMs タイムアウト時間（ミリ秒）、デフォルト 1000ms
- * @returns Promise<ActionFormResponse | ModalFormResponse | MessageFormResponse>
+ * @returns Promise<UI.ActionFormResponse | UI.ModalFormResponse | UI.MessageFormResponse>
  */
 export function forceShow(
     player: MC.Player,
