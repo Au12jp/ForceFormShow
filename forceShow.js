@@ -4,7 +4,6 @@ import * as UI from "@minecraft/server-ui";
 const { system } = MC;
 
 /**
- * 
  * @param { MC.Player } player 
  * @param { UI.ActionFormData | UI.ModalFormData | UI.MessageFormData } form 
  * @param { number } timeout_ms 
